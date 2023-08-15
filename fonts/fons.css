@@ -31,3 +31,21 @@
     src: url("/fonts/Oswald-Bold.woff2") format('woff2');
     font-weight: bold;
 }
+
+@font-face {
+    font-family: "Dejavu";
+    src: url("/fonts/dejavu-bold.woff2") format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Dejavu";
+    src: url("/fonts/dejavu-regular.woff2") format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Dejavu";
+    src: url("/fonts/dejavu-italic.woff2") format('woff2');
+    font-weight: bold;
+}

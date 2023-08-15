@@ -1,9 +1,11 @@
-# Main Page
+# Rozcestí
 
-[Showcase](?page=showcase.md)
+[Zpět na Hlavní stánku](/)
 
-```css
-.test {
-    background: red;
-}
-```
+## Manuály
+
+- [Markdown na tomhle webu](?page=showcase.md)
+- [Git (cli)](?page=git-cli.md)
+- [Git (Gui)](?page=git-gui.md)
+
+## Poznámky

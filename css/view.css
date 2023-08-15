@@ -14,7 +14,7 @@ body {
 }
 
 .loading:is(.hide) {
-    transition: 1s 2s;
+    transition: 1s 1s;
     opacity: 0;
     pointer-events: none;
 }

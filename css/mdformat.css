@@ -16,6 +16,11 @@
     color: #556fff;
 }
 
+.MD code {
+    font-family: 'FiraCodeNerd';
+}
+
+
 .hljs {
     border-radius: 5px;
 }

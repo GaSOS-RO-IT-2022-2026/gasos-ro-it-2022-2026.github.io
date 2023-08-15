@@ -45,7 +45,9 @@ const LoadPage = async (url) => {
 
         // Here, I use it to make an image appear on the page
     loadingStatus.innerHTML = "Formating Markdown"
-    var md = window.markdownit()
+    var md = window.markdownit({
+        html: true
+    })
     console.log(text);
     var result = md.render(text);
     

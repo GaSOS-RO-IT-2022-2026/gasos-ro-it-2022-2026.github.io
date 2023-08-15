@@ -39,6 +39,11 @@ public class Main {
 }
 ```
 
-Taky lze používat [Nerd Icons](https://www.nerdfonts.com/cheat-sheet)
+Taky lze používat [Nerd Icons](https://www.nerdfonts.com/cheat-sheet) pomocí class
 
-# 󰌝   
+<i class="nf nf-dev-html5"></i> : `<i class="nf nf-dev-html5"></i>`
+
+A nebo v kodu je lze používat přímo:
+```
+Tahůe ikona je přímo skopírovaná jako emoji: 
+```

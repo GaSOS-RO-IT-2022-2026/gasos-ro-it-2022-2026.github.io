@@ -18,6 +18,8 @@ anime({
 });
 
 
+
+
 // Skontroluje zda url má ".." (o složku zpět) a zda nezačíná na / (root)
 const UrlCheck = (url) => {
     console.log(url);
@@ -47,6 +49,7 @@ const LoadPage = async (url) => {
 
     hljs.highlightAll();
 
+    let fontsready = await document.fonts.ready
     document.getElementById('Loading').classList.add("hide")
 }
 

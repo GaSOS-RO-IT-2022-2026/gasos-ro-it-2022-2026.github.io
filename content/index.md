@@ -1,6 +1,6 @@
 # Main Page
 
-[Test](?page=test.md)
+[Showcase](?page=showcase.md)
 
 ```css
 .test {

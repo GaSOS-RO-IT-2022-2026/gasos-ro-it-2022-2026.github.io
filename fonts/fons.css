@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "DejavuNerd";
+    src: url("/fonts/dejavunerd-regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "DejavuNerd";
+    src: url("/fonts/dejavunerd-bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "FiraCodeNerd";
+    src: url("/fonts/firacodenerd-regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: "FiraCodeNerd";
+    src: url("/fonts/firacodenerd-semibold.woff") format('woff');
+    font-weight: bold;
+}

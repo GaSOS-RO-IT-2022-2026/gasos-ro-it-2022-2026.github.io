@@ -1,0 +1,33 @@
+body {
+    background-color: #141414;
+}
+
+.loading {
+    z-index: 100;
+    inset: 0;
+    background-color: #141414;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    transform: 0;
+}
+
+.loading:is(.hide) {
+    transition: 400ms 1s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.loading .loading-center {
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.loading .loading-bar {
+    background-color: #0000ff;
+    padding: 5px;
+    display: inline-block;
+}

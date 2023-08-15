@@ -25,7 +25,7 @@ anime({
 // Skontroluje zda url má ".." (o složku zpět) a zda nezačíná na / (root)
 const UrlCheck = (url) => {
     console.log(url);
-    const PathCheck = /^(?!\/)(?!.*\.\.)[a-zA-Z0-9\/]+(?:[a-zA-Z0-9\/]+\.md)?$/g
+    const PathCheck = /^(?!\/)(?!.*\.\.)[a-zA-Z0-9\/\-]+(?:\.md)?$/g
     if(PathCheck.test(url)) {
         console.log("Match");
         return true

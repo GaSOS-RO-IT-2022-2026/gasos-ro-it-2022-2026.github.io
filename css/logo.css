@@ -1,0 +1,71 @@
+.mainlogo {
+    position: relative;
+    aspect-ratio: 1;
+    width: 20rem;
+    /* position: relative; */
+    background-color: #000000ff;
+}
+
+
+.mainlogo div:not(.mainlogo-overlay ){
+    position: absolute;
+    background-color: #ffffffff;
+}
+
+.mainlogo-overlay {
+    background-color: none;
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(45deg, blue, red);
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: darken ;
+}
+.mainlogo-text {
+    position: relative;
+    background-color: #000000ff;
+}
+.mainlogo-svg path {
+    stroke: white !important;
+    stroke-width: 0.05;
+}
+
+.mainlogo-i {
+	background-color: white;
+	position: absolute;
+	left: 37.5%;
+	top: 43.5%;
+	width: 10.5%;
+	height: 41.8%;
+	transform-origin: 50% 100%;
+}
+
+.mainlogo-i-dot {
+	background-color: white;
+	position: absolute;
+	left: 37.5%;
+	top: 29%;
+	width: 10.5%;
+	height: 10.5%;
+    transform-origin: 50% 100%;
+}
+.mainlogo-t {
+	background-color: white;
+	position: absolute;
+	left: 52%;
+	top: 14.5%;
+	width: 10.5%;
+	height: 71.0%;
+	transform-origin: 50% 100%;
+}
+
+.mainlogo-t-line {
+	background-color: white;
+	position: absolute;
+	left: 21.8%;
+	top: 14.5%;
+	width: 56.4%;
+	height: 10.5%;
+	transform-origin: 66% 50%;
+}
+

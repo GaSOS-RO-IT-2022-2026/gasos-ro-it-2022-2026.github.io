@@ -69,3 +69,8 @@
 	transform-origin: 66% 50%;
 }
 
+@media (max-width: 1000px) {
+    .mainlogo-text {
+        display: none;
+    }
+}

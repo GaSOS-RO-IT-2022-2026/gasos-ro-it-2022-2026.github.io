@@ -1,3 +1,5 @@
+const loadingStatus = document.getElementById('loading-status')
+
 const animspeed = 300
 anime({
     targets: '.loading .loading-bar',
@@ -34,6 +36,7 @@ const UrlCheck = (url) => {
 
 // Načte Data z md souboru
 const LoadPage = async (url) => {
+    loadingStatus.innerHTML = "Fetching Data"
     let rawData = await fetch(`/content/${url}`)
     let text = await rawData.text()
         // Here's where you get access to the blob
@@ -41,15 +44,18 @@ const LoadPage = async (url) => {
         // Like calling ref().put(blob)
 
         // Here, I use it to make an image appear on the page
+    loadingStatus.innerHTML = "Formating Markdown"
     var md = window.markdownit()
     console.log(text);
     var result = md.render(text);
     
     document.getElementById('MDview').innerHTML = result
-
+    loadingStatus.innerHTML = "Syntax Highlighting"
     hljs.highlightAll();
 
+    loadingStatus.innerHTML = "Loading Fonts"
     let fontsready = await document.fonts.ready
+    loadingStatus.innerHTML = "Done!"
     document.getElementById('Loading').classList.add("hide")
 }
 

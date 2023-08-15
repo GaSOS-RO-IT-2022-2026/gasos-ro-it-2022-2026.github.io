@@ -5,15 +5,15 @@
 
 .MD * {
     color: white;
-    font-family: 'DejavuNerd' ;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .MD a {
-    color: #0026ff;
+    color: #687fff;
 }
 
 .MD a:hover {
-    color: #556fff;
+    color: #92a2ff;
 }
 
 .MD code {
@@ -32,6 +32,13 @@
     color: gray;
 }
 
+.MD icon {
+    font-family: 'NerdSymbols';
+}
+.MD iconlg {
+    font-family: 'NerdSymbols';
+    font-size: large;
+}
 
 .hljs {
     border-radius: 5px;

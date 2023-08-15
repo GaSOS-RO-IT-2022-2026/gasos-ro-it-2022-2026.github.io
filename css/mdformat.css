@@ -1,0 +1,21 @@
+.MD {
+    max-width: 78rem;
+    margin-inline: auto;
+}
+
+.MD * {
+    color: white;
+    font-family: 'DejavuNerd' ;
+}
+
+.MD a {
+    color: #0026ff;
+}
+
+.MD a:hover {
+    color: #556fff;
+}
+
+.hljs {
+    border-radius: 5px;
+}

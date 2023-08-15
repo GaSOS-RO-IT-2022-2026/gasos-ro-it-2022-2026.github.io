@@ -19,3 +19,9 @@
     src: url("/fonts/firacodenerd-semibold.woff") format('woff');
     font-weight: bold;
 }
+
+@font-face {
+    font-family: "NerdSymbols";
+    src: url("/fonts/nerdsymbols.woff2") format('woff2');
+    font-weight: bold;
+}

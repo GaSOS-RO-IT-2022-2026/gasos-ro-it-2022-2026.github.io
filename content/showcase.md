@@ -45,5 +45,5 @@ Taky lze používat [Nerd Icons](https://www.nerdfonts.com/cheat-sheet) pomocí 
 
 A nebo v kodu je lze používat přímo:
 ```
-Tohle ikona je přímo skopírovaná jako emoji: 
+Tahle ikona je přímo skopírovaná jako emoji: 
 ```

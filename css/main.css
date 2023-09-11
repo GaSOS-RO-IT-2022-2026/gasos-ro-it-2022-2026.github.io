@@ -206,19 +206,21 @@ section h1 {
   transform: translate(-50%, -50%) scale(1);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 600px) {
   .project-grid {
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
   }
 }
+
 @media (min-width: 760px) {
   .project-grid {
     grid-template-columns: repeat(3, minmax(200px, 1fr));
   }
 }
-@media (min-width: 600px) {
+
+@media (min-width: 1200px) {
   .project-grid {
-    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    grid-template-columns: repeat(4, minmax(200px, 1fr));
   }
 }
 

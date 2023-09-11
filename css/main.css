@@ -61,6 +61,19 @@ nav .nav-inside a::before {
   transition: 200ms;
 }
 
+nav .nav-inside a.external::after {
+  font-family: "tabler-icons";
+  color: #bf9dff;
+  font-size: small;
+  height: 0;
+  line-height: 1;
+  vertical-align: baseline;
+  _vertical-align: bottom;
+  position: relative;
+  bottom: 1ex;
+  content: "\ea99";
+}
+
 nav .nav-inside a:is(.selected, :hover)::before {
   transform: scaleX(1);
 }

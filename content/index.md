@@ -1,6 +1,4 @@
-# Rozcestí
-
-[Zpět na Hlavní stánku](/)
+# Poznámkový systém pro IT Gasos Rokycany
 
 ## Manuály
 

@@ -149,3 +149,7 @@ mobileMenu.appendChild(mobileTop); // Add Top Panel to mobile menu
 mobileMenu.appendChild(mobileLinks); // Add Link Panel to mobile menu
 
 document.body.appendChild(mobileMenu); // Add mobile menu to web
+
+if (window.location.hash == "" || window.location.hash == "#") {
+  window.scrollTo(0, 0);
+}

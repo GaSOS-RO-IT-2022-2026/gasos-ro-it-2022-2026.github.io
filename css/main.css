@@ -18,8 +18,9 @@ nav {
   position: sticky;
   top: 0;
   width: 100%;
-  backdrop-filter: blur(5px);
-  background-color: #131313ad;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: #25252563;
   padding-block: 1rem;
 }
 
@@ -99,6 +100,9 @@ nav#nav-mobile {
   margin: 0;
   position: fixed;
   display: none;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  background-color: #202020;
 }
 
 nav#nav-mobile .nav-inside {

@@ -322,8 +322,9 @@ section h1 {
   nav#nav-mobile {
     background-color: #fefefe;
   }
-  nav#nav-mobile .mobile-menu-close {
+  nav#nav-mobile div button.mobile-menu-close {
     background-color: #00000010;
+    color: black;
   }
   nav#nav-mobile .nav-inside a {
     background-color: #00000010;

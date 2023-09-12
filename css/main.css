@@ -248,12 +248,12 @@ section h1 {
   inset: 0;
   z-index: 1000;
   position: fixed;
+  display: none;
   transition: 100ms;
 }
 
-.loading.hide {
-  opacity: 0;
-  pointer-events: none;
+.loading.show {
+  display: block;
 }
 
 @media (min-width: 600px) {

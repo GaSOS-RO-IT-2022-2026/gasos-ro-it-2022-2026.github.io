@@ -20,6 +20,7 @@ But if you want I recommend reading animeJS doc. (Mainly info about timeline fun
 
 https://animejs.com/documentation/
 */
+document.getElementById("main-loading").classList.add("show");
 const animspeed = 600;
 
 var tl = anime.timeline({
@@ -150,6 +151,14 @@ mobileMenu.appendChild(mobileLinks); // Add Link Panel to mobile menu
 
 document.body.appendChild(mobileMenu); // Add mobile menu to web
 
-if (window.location.hash == "" || window.location.hash == "#") {
-  window.scrollTo(0, 0);
-}
+setTimeout(() => {
+  if (window.location.hash == "" || window.location.hash == "#") {
+    document.querySelector("html").style.scrollBehavior = "auto";
+    window.scrollTo(0, 0);
+    document.querySelector("html").style.scrollBehavior = "smooth";
+  }
+
+  setTimeout(() => {
+    document.getElementById("main-loading").classList.remove("show");
+  }, 100);
+}, 200);

@@ -9,10 +9,6 @@ html {
   scroll-padding-top: 5rem;
 }
 
-* {
-  --accent-color: #d37913;
-}
-
 nav {
   z-index: 999;
   position: sticky;
@@ -291,5 +287,45 @@ section h1 {
 
   nav .mobile-menu-open {
     display: inline-block;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #fefefefe;
+    color: black;
+  }
+  .loading {
+    background-color: #fefefefe;
+  }
+  nav {
+    background-color: #fefefec4;
+  }
+  nav .nav-inside a {
+    color: black;
+  }
+  nav .nav-inside button {
+    color: black;
+  }
+
+  .btn {
+    color: black;
+  }
+  .btn::after {
+    background-color: white;
+  }
+
+  .btn::before {
+    background-color: #aaaaaa;
+  }
+
+  nav#nav-mobile {
+    background-color: #fefefe;
+  }
+  nav#nav-mobile .mobile-menu-close {
+    background-color: #00000010;
+  }
+  nav#nav-mobile .nav-inside a {
+    background-color: #00000010;
   }
 }
